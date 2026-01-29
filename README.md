@@ -92,20 +92,17 @@ After execution, open:
 target/ExtentReport.html
 
 This report shows:
-
-Test names
-
-Pass/Fail status
-
-Execution details
+-Test names
+-Pass/Fail status
+-Execution details
 
 ---
 
 ## 🧪 Testing Approach
-APIs are first validated manually using Postman.
-Automation is then implemented using REST Assured.
-Both success and failure scenarios are tested.
-Data-driven testing is used to run the same test with multiple datasets.
+-APIs are first validated manually using Postman.
+-Automation is then implemented using REST Assured.
+-Both success and failure scenarios are tested.
+-Data-driven testing is used to run the same test with multiple datasets.
 
 
 ----
