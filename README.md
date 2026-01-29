@@ -24,17 +24,17 @@ and generates detailed execution reports.
 ---
 
 ## 🚀 Features
-- Automated GET and POST API tests
-- Data-driven testing using TestNG DataProvider
+- Automated GET and POST API tests  
+- Data-driven testing using TestNG DataProvider  
 - Validation of:
   - HTTP status codes
   - Response body
-  - Headers
-- Logging of request and response
-- HTML execution reports using Extent Reports
-- Centralized configuration using BaseTest
-- Test suite execution using TestNG XML
-- Maven-based execution
+  - Headers  
+- Logging of request and response  
+- HTML execution reports using Extent Reports  
+- Centralized configuration using BaseTest  
+- Test suite execution using TestNG XML  
+- Maven-based execution  
 
 ---
 
@@ -56,7 +56,9 @@ api-automation-framework
 │── pom.xml
 │── testng.xml
 │
-└── src/test/java
+└── src
+└── test
+└── java
 ├── base
 │ └── BaseTest.java
 ├── tests
@@ -80,24 +82,26 @@ testng.xml → Run
 From project root:
 ```bash
 mvn test
-
 📊 Test Report
+After execution, open:
 
-After execution, open the HTML report:
 target/ExtentReport.html
-
 This report shows:
+
 Test names
+
 Pass/Fail status
+
 Execution details
 
 🧪 Testing Approach
 APIs are first validated manually using Postman.
+
 Automation is then implemented using REST Assured.
+
 Both success and failure scenarios are tested.
+
 Data-driven testing is used to run the same test with multiple datasets.
 
 👩‍💻 Author
 Subhashree A
-
-
