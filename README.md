@@ -56,9 +56,7 @@ api-automation-framework
 │── pom.xml
 │── testng.xml
 │
-└── src
-└── test
-└── java
+└── src/test/java
 ├── base
 │ └── BaseTest.java
 ├── tests
