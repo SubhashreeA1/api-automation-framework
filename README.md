@@ -51,7 +51,7 @@ Endpoints covered:
 ---
 
 ## 📂 Project Structure
-
+```
 api-automation-framework
 │── pom.xml
 │── testng.xml
@@ -65,7 +65,7 @@ api-automation-framework
 │ └── PostApiNegativeAndEdgeTest.java
 └── utils
 └── ExtentReportManager.java
-
+```
 
 ---
 
