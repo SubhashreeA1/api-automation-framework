@@ -92,8 +92,11 @@ After execution, open:
 target/ExtentReport.html
 
 This report shows:
+
 Test names
+
 Pass/Fail status
+
 Execution details
 
 ---
