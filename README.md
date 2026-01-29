@@ -75,6 +75,7 @@ api-automation-framework
 
 ### Option 1: Run using TestNG XML
 Right click on:
+
 testng.xml → Run
 
 
