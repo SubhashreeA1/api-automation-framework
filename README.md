@@ -64,7 +64,7 @@ api-automation-framework
 │ ├── CreatePostTest.java
 │ └── PostApiNegativeAndEdgeTest.java
 └── utils
-└── ExtentReportManager.java
+ └── ExtentReportManager.java
 ```
 
 ---
